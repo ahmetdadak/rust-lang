@@ -1,0 +1,31 @@
+[package]
+name = "keco"
+version = "0.1.0"
+edition = "2021"
+include = [
+    "src/**/*",
+    "Cargo.toml",
+    "README.md",
+    "LICENSE"
+]
+homepage = "https://github.com/ahmetdadak/rust-lang/mycoreutils/keco"
+description = "Colored echo"
+repository = "https://github.com/ahmetdadak/rust-lang/mycoreutils/keco"
+keywords = [
+    "cli",
+    "output",
+    "color",
+    "echo"
+]
+categories = ["command-line-interface"]
+license = "MIT"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.3", features = ["derive"] }
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 3
