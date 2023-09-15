@@ -8,9 +8,9 @@ include = [
     "README.md",
     "LICENSE"
 ]
-homepage = "https://github.com/ahmetdadak/rust-lang/mycoreutils/keco"
+homepage = "https://github.com/ahmetdadak/rust-lang/tree/main/mycoreutils/keco"
 description = "Colored echo"
-repository = "https://github.com/ahmetdadak/rust-lang/mycoreutils/keco"
+repository = "https://github.com/ahmetdadak/rust-lang/tree/main/mycoreutils/keco"
 keywords = [
     "cli",
     "output",
